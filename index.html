@@ -4,8 +4,256 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <style>
+          .brothers-card {
+            border: 0;
+          }
+          .brothers-card-footer {
+            background-color: white;
+            border: 0;
+          }
+          .brothers-color{
+            background-color: rgb(51, 51, 104);
+            color: white;
+          }
+          nav ul{
+            margin-left: 400px
+          }
+          nav li{
+           padding-left: 20px;
+          }
+    </style>
 </head>
-<body>
-    <h1>Hello!</h1>
+<body style="font-family: 'Oswald', sans-serif;">
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+     <section class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+            <h1 style="color: rgb(51, 51, 104); font-size: 60px;">BACKPACK</h1>
+            <h1 style="color: rgb(120, 192, 132); font-size: 60px;">MOON</h1>
+            <p style="color: rgb(88, 87, 87);">Lorem ipsum dolor sit amet consectetur adipisicing elit. rem, nobis aperiam molestias totam!</p><br>
+            <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt="">BUY NOW</button>
+        </div>
+        <div class="col-md-6">
+            <img src="images/green.png" class="d-block w-100" alt="...">
+        </div>
+       </div>
+      </div><br><br><br>
+    </section>
+    <main>
+      <section class="container">
+        <div class="mt-5">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row d-flex align-items-center">
+                  <div class="col-md-6 ">
+                    <div class="card mb-3 border-0">
+                      <div class="row g-0 shadow rounded-3">
+                        <div class="col-md-4 d-flex align-items-center justify-content-evenly">
+                          <img class="w-50" src="images/image 12.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h4 style="color: rgb(51, 51, 104);" class="card-title">Find the Perfect Fit</h4>
+                            <p class="card-text">Everybody is different, which is why we
+                              offer styles for every body</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 border-0">
+                      <div class="row g-0 shadow rounded-3">
+                        <div class="col-md-4 d-flex align-items-center justify-content-evenly">
+                          <img class="w-50" src="images/image 13.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h4 style="color: rgb(51, 51, 104);" class="card-title">Free Exchanges</h4>
+                            <p class="card-text">One of the many reasons you can shop
+                              with peace of mind.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 border-0">
+                      <div class="row g-0 shadow rounded-3">
+                        <div class="col-md-4 d-flex align-items-center justify-content-evenly">
+                          <img class="w-50" src="images/image 14.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h4 style="color: rgb(51, 51, 104);" class="card-title">Contact Our Seller</h4>
+                            <p class="card-text">They are here to help you. That's quite 
+                              literally what we pay them for.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                      <img src="images/XMLID 1.png" class="d-block w-100" alt="..."><br><br>
+                  </div><br><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><br><br>
+    </main>
+      <section id="product" id="shoes" class="mt-5 container">
+        <h3 style="color: rgb(51, 51, 104); font-size: 40px;">CASUAL BACKPACK</h3><br><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card brothers-card h-100 shadow">
+              <img src="images/img (5).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 style="color: rgb(51, 51, 104);" class="card-title">Nike Sportswear Hayward</h4><br>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer brothers-card-footer d-flex justify-content-between pb-4">
+                <h2 style="color: rgb(107, 179, 119);">$234</h2>
+                <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card brothers-card h-100 shadow">
+              <img src="images/img (1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 style="color: rgb(51, 51, 104);" class="card-title">School backpack</h4><br>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer brothers-card-footer d-flex justify-content-between pb-4">
+                <h2 style="color: rgb(107, 179, 119);">$234</h2>
+                <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card brothers-card h-100 shadow">
+              <img src="images/img (3).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 style="color: rgb(51, 51, 104);" class="card-title">CityLite Security Backpack </h4><br>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer brothers-card-footer d-flex justify-content-between pb-4">
+                <h2 style="color: rgb(107, 179, 119);">$234</h2>
+                <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section><br><br>
+    <section id="backpack" class="mt-5 container">
+      <h3 style="color: rgb(51, 51, 104); font-size: 40px;">TRAVEL BACKPACK</h3><br><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card brothers-card h-100 shadow">
+            <img src="images/img (4).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 style="color: rgb(51, 51, 104);" class="card-title">Travel Sport</h4><br>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer brothers-card-footer d-flex justify-content-between pb-4">
+              <h2 style="color: rgb(107, 179, 119);">$234</h2>
+              <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card brothers-card h-100 shadow">
+            <img src="images/img (6).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 style="color: rgb(51, 51, 104);" class="card-title">Jack Wolfskin West Highland</h4><br>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer brothers-card-footer d-flex justify-content-between pb-4">
+              <h2 style="color: rgb(107, 179, 119);">$234</h2>
+              <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card brothers-card h-100 shadow">
+            <img src="images/img (7).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 style="color: rgb(51, 51, 104);" class="card-title">Hiking Trekking Bag Camping</h4><br>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer brothers-card-footer d-flex justify-content-between pb-4">
+              <h2 style="color: rgb(107, 179, 119);">$234</h2>
+              <button class="btn brothers-color"><img style="width: 40px;" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section><br><br>
+  <section class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md-7">
+              <h1 style="font-size: 60px;">BACKPACK</h1>
+              <h1 style="font-size: 60px;">MOON</h1>
+          </div>
+              <div class="col-md-5">
+                  <img src="images/img (5).png" class="d-block w-100" alt="...">
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md-7">
+              <h1 style="font-size: 60px;">BACKPACK</h1>
+              <h1 style="font-size: 60px;">MOON</h1>
+          </div>
+              <div class="col-md-5">
+                  <img src="images/img (6).png" class="d-block w-100" alt="...">
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md-7">
+              <h1 style="font-size: 60px;">BACKPACK</h1>
+              <h1 style="font-size: 60px;">MOON</h1>
+          </div>
+              <div class="col-md-5">
+                  <img src="images/img (7).png" class="d-block w-100" alt="...">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
